@@ -42,8 +42,6 @@ def main(data: list) -> int:
             valid_passports = valid_passports + 1
     return valid_passports
 
-    return valid_passports
-
 
 if __name__ == "__main__":
     with open("data.txt", "r") as f:
